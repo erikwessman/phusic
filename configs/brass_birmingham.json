@@ -1,0 +1,127 @@
+{
+    "metadata": {
+        "name": "Brass Birmingham",
+        "assets_dir": "brass_birmingham"
+    },
+    "start_phase": "canal_era",
+    "phases": [
+        {
+            "unique_id": "canal_era",
+            "next_phase": "rail_era",
+            "name": "Canal Era",
+            "img": "canal_era/",
+            "soundtracks": [
+                "barovian_castle.mp3"
+            ]
+        },
+        {
+            "unique_id": "rail_era",
+            "next_phase": "canal_era",
+            "name": "Rail Era",
+            "img": "rail_era/",
+            "soundtracks": [
+                "steampunk_station.mp3"
+            ]
+        },
+        {
+            "unique_id": "eleanor_coade",
+            "key": "K_e",
+            "name": "Eleanor Coade",
+            "img": "eleanor_coade.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "eliza_tinsley",
+            "key": "K_z",
+            "name": "Eliza Tinsley",
+            "img": "eliza_tinsley.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "george_stephenson",
+            "key": "K_g",
+            "name": "George Stephenson",
+            "img": "george_stephenson.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "henry_bessemer",
+            "key": "K_h",
+            "name": "Henry Bessemer",
+            "img": "henry_bessemer.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "isambard_kingdom_brunel",
+            "key": "K_i",
+            "name": "Isambard Kingdom Brunel",
+            "img": "isambard_kingdom_brunel.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "james_watt",
+            "key": "K_j",
+            "name": "James Watt",
+            "img": "james_watt.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "richard_arkwright",
+            "key": "K_r",
+            "name": "Richard Arkwright",
+            "img": "richard_arkwright.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        },
+        {
+            "unique_id": "robert_owen",
+            "key": "K_o",
+            "name": "Robert Owen",
+            "img": "robert_owen.webp",
+            "soundtracks": [
+                "dunk.mp3"
+            ]
+        }
+    ],
+    "sfx": [
+        {
+            "key": "K_1",
+            "name": "Power Up",
+            "audio": "power_up.mp3"
+        },
+        {
+            "key": "K_2",
+            "name": "Horn",
+            "audio": "horn.mp3"
+        },
+        {
+            "key": "K_3",
+            "name": "Roar",
+            "audio": "roar.mp3"
+        },
+        {
+            "key": "K_4",
+            "name": "Angel",
+            "audio": "angel.mp3"
+        },
+        {
+            "key": "K_5",
+            "name": "Bell",
+            "audio": "bell.mp3"
+        }
+    ],
+    "font": "default.otf"
+}
